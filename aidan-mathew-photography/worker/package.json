@@ -1,0 +1,25 @@
+{
+  "name": "amp-media-worker",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Background worker: trusted media validation (ffprobe), processing (FFmpeg, sharp), notification emails and retention tasks.",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "selftest": "tsx scripts/selftest.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "file-type": "^21.3.4",
+    "sharp": "^0.34.5",
+    "tsx": "^4.23.15"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "typescript": "^5.9.3"
+  }
+}

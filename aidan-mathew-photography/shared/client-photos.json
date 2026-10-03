@@ -1,0 +1,73 @@
+{
+  "_about": "Client photographs from https://www.aidanmphotography.com/clients.html. Used for the development preview and by scripts/import-client-photos.mjs. Edit 'slots' to change which photo appears where.",
+  "photos": [
+    {
+      "key": "amp-1310",
+      "url": "https://www.aidanmphotography.com/uploads/1/3/8/9/138975060/amp-1310_orig.jpg",
+      "title": "Clients page feature image",
+      "gallery": "https://www.aidanmphotography.com/clients.html"
+    },
+    {
+      "key": "mg-2186",
+      "url": "https://www.aidanmphotography.com/uploads/1/3/8/9/138975060/editor/mg-2186.jpg",
+      "title": "Akshita",
+      "gallery": "https://aidanphotography.pixieset.com/akshita/"
+    },
+    {
+      "key": "mg-3892",
+      "url": "https://www.aidanmphotography.com/uploads/1/3/8/9/138975060/editor/mg-3892.jpg",
+      "title": "KBC 2019",
+      "gallery": "https://aidanphotography.pixieset.com/kbc2019/"
+    },
+    {
+      "key": "mg-9533",
+      "url": "https://www.aidanmphotography.com/uploads/1/3/8/9/138975060/editor/mg-9533.jpg",
+      "title": "Varun",
+      "gallery": "https://aidanphotography.pixieset.com/varun/"
+    },
+    {
+      "key": "mg-9074",
+      "url": "https://www.aidanmphotography.com/uploads/1/3/8/9/138975060/editor/mg-9074.jpg",
+      "title": "Arun",
+      "gallery": "https://aidanphotography.pixieset.com/arun/"
+    },
+    {
+      "key": "amp00784",
+      "url": "https://www.aidanmphotography.com/uploads/1/3/8/9/138975060/amp00784_orig.jpg",
+      "title": "Silas George baptism",
+      "gallery": "https://aidanmathewphotography89.pixieset.com/silasgeorgebaptism/"
+    },
+    {
+      "key": "amp00523",
+      "url": "https://www.aidanmphotography.com/uploads/1/3/8/9/138975060/amp00523_orig.jpeg",
+      "title": "Talia Lucy baptism",
+      "gallery": "https://aidanmathewphotography18.pixieset.com/talialucybaptism/"
+    }
+  ],
+  "slots": {
+    "home": {
+      "hero_image_id": "amp-1310",
+      "about_image_id": "mg-9074"
+    },
+    "services": {
+      "wedding-cinematography": "mg-9533",
+      "wedding-photography": "mg-2186",
+      "engagement-and-pre-wedding": "mg-9074",
+      "event-photography-and-video": "mg-3892",
+      "livestreaming": "amp00784"
+    },
+    "filmPosters": [
+      "mg-9533",
+      "mg-2186",
+      "amp00523"
+    ],
+    "storytelling": {
+      "hero_image_id": "mg-3892",
+      "passages": [
+        "mg-2186",
+        "amp00523",
+        "mg-9533"
+      ]
+    }
+  }
+}
