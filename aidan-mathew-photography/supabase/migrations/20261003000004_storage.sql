@@ -6,10 +6,10 @@
 -- (Dashboard → Storage → Settings). The Free plan caps uploads at 50 MB.
 
 insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types) values
-  ('media-originals', 'media-originals', false, 209715200,
+  ('media-originals', 'media-originals', false, 52428800,
      array['video/mp4', 'video/quicktime', 'video/webm', 'image/jpeg', 'image/png', 'image/webp']),
-  ('media-derivatives', 'media-derivatives', false, 209715200, null),
-  ('media-public', 'media-public', true, 209715200, null)
+  ('media-derivatives', 'media-derivatives', false, 52428800, null),
+  ('media-public', 'media-public', true, 52428800, null)
 on conflict (id) do update
   set public = excluded.public,
       file_size_limit = excluded.file_size_limit,
